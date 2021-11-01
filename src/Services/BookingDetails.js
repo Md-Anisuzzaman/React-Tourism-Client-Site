@@ -34,7 +34,6 @@ const BookingDetails = () => {
             .then(res => res.json())
             .then(data => setBookingDetails(data))
         console.log(bookingdetailsid);
-
     }, [bookingdetailsid])
 
     // useEffect(() => {
