@@ -10,14 +10,14 @@ const ManageBooking = () => {
     const [bookingOrder, setbookingOrder] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://morning-brushlands-58353.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setbookingOrder(data))
 
     }, [bookingOrder]);
 
     const handleDelete = id => {
-        const url = `http://localhost:5000/services/${id}`;
+        const url = `https://morning-brushlands-58353.herokuapp.com/${id}`;
         fetch(url, {
             method: 'DELETE'
         })

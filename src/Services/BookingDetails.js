@@ -19,7 +19,7 @@ const BookingDetails = () => {
         console.log(data);
 
         //using axios fetch to post data
-        axios.post('http://localhost:5000/services', data)
+        axios.post('https://morning-brushlands-58353.herokuapp.com/services', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('added successfully');
@@ -30,7 +30,7 @@ const BookingDetails = () => {
     }
 
     useEffect(() => {
-        fetch(`http://localhost:5000/services/${bookingdetailsid}`)
+        fetch(`https://morning-brushlands-58353.herokuapp.com/${bookingdetailsid}`)
             .then(res => res.json())
             .then(data => setBookingDetails(data))
         console.log(bookingdetailsid);
