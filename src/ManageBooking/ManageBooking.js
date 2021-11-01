@@ -14,15 +14,18 @@ const ManageBooking = () => {
             .then(res => res.json())
             .then(data => setbookingOrder(data))
 
-    }, [bookingOrder]);
+    }, []);
 
     const handleDelete = id => {
-        const url = `https://morning-brushlands-58353.herokuapp.com/${id}`;
+        const url = `https://morning-brushlands-58353.herokuapp.com/services-delete/${id}`;
         fetch(url, {
-            method: 'DELETE'
+            method: 'POST'
         })
             .then(res => res.json())
             .then(data => {
+                fetch('https://morning-brushlands-58353.herokuapp.com/services')
+                .then(res => res.json())
+                .then(data => setbookingOrder(data))
                 console.log(data);
             });
     }
