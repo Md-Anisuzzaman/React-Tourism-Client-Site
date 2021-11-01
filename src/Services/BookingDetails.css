@@ -1,0 +1,39 @@
+/* .container{
+    border:1px solid gray;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    padding: 80px;
+} */
+
+/* 
+.img-size{
+    width: 400px;
+} */
+/* 
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}*/
+
+.booking-confirmation form{
+  margin-bottom: 20px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center; 
+  align-items: center; 
+   
+}
+
+.booking-confirmation form input, textarea{
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-body{
+    border: 1px solid gray;
+}
+
+
+

@@ -1,0 +1,20 @@
+.services-border{
+    border: 2px solid cyan;
+}
+
+.cart{
+    /* background-color: #34495E  ;  */
+    height: 93%;
+    margin: 5px;
+    margin-left: 7px;
+    border: 1px solid cornflowerblue;
+    color: dark;
+}
+
+.img-wrap{
+     height: 210px;
+     width: 90%;
+     /* overflow-y: hidden; */
+     object-fit: contain;
+
+}

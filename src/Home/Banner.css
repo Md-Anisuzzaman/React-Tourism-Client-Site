@@ -1,0 +1,13 @@
+.banner-body{
+    margin: 5px;
+    margin-left: 7px;
+}
+.text-container{
+    padding-bottom: 30rem;
+    font-family: 'Poppins', sans-serif;
+}
+/* @media all and (min-width:500px){
+    .banner-body{
+        width: 100%;
+    }
+} */
