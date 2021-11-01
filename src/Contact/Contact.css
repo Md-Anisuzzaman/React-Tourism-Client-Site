@@ -1,5 +1,8 @@
 .contact-body{
+    height: 80vh;
     border: 2px solid gray;
-    margin: 5px;
-    margin-left: 7px;
+}
+
+.text-stye{
+    margin-top: 200px;
 }

@@ -19,9 +19,8 @@ import Login from './Login/Login';
 import BookingDetails from './Services/BookingDetails';
 import Services from './Services/Services';
 import PrivateRoute from './Private/PrivateRoute';
-import { useEffect, useState } from 'react';
-import { useForm } from 'react-hook-form';
 import AuthProvider from './Context-Api/AuthProvider';
+import ManageBooking from './ManageBooking/ManageBooking';
 
 
 function App() {
@@ -32,7 +31,6 @@ function App() {
       <AuthProvider>
         <Router>
           <Header></Header>
-          {/* <Login></Login> */}
           <Switch>
             <Route path="/home">
               <Home></Home>
@@ -43,9 +41,9 @@ function App() {
             <Route exact path="/services">
               <Services></Services>
             </Route>
-            {/* <PrivateRoute exact path="/bookingdetalis">
-              <BookingDetails></BookingDetails>
-            </PrivateRoute > */}
+            <Route exact path="/managebooking">
+              <ManageBooking></ManageBooking>
+            </Route>
             <PrivateRoute exact path="/bookingdetails/:bookingdetailsid">
               <BookingDetails></BookingDetails>
             </PrivateRoute>

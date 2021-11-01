@@ -3,9 +3,8 @@ import './Contact.css';
 
 const Contact = () => {
     return (
-        <div className="contact-body mt-3 mb-2">
-            
-            <h2 className="mt-2">Contact Us</h2>
+        <div className="contact-body">
+            <h2 className="text-stye">Contact Us</h2>
             <p className="mt-3">
                 Dhaka,Banani <br />
                 Email: TourismBD@gmail.com <br />

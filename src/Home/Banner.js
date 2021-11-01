@@ -10,7 +10,7 @@ const Banner = () => {
             <Carousel>
                 <Carousel.Item>
 
-               
+
 
                     <img
                         className="d-block w-100 h-50"
@@ -20,8 +20,8 @@ const Banner = () => {
 
                     <Carousel.Caption>
                         <div className="text-container">
-                        <h1 className="text-light"><span style = {{'color':'#FFC300' }}>Welcome</span> to TourismBD <br /> Awaken To A Different World</h1>
-                        <h5 style={{'color':'#40E0D0 '}}>Exclusive holidays for the single traveler.</h5>
+                            <h1 className="text-light"><span style={{ 'color': '#FFC300' }}>Welcome</span> to TourismBD <br /> Awaken To A Different World</h1>
+                            <h5 style={{ 'color': '#40E0D0 ' }}>Exclusive holidays for the single traveler.</h5>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -34,9 +34,9 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                    <div className="text-container">
-                        <h1 className="text-light"><span style = {{'color':'#FFC300' }}>Welcome</span> to TourismBD <br /> Awaken To A Different World</h1>
-                        <h5 style={{'color':'#40E0D0 '}}>Exclusive holidays for the single traveler.</h5>
+                        <div className="text-container">
+                            <h1 className="text-light"><span style={{ 'color': '#FFC300' }}>Welcome</span> to TourismBD <br /> Awaken To A Different World</h1>
+                            <h5 style={{ 'color': '#40E0D0 ' }}>Exclusive holidays for the single traveler.</h5>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -49,9 +49,9 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                    <div className="text-container">
-                        <h1 className="text-light"><span style = {{'color':'#FFC300' }}>Welcome</span> to TourismBD <br /> Awaken To A Different World</h1>
-                        <h5 style={{'color':'#40E0D0 '}}>Exclusive holidays for the single traveler.</h5>
+                        <div className="text-container">
+                            <h1 className="text-light"><span style={{ 'color': '#FFC300' }}>Welcome</span> to TourismBD <br /> Awaken To A Different World</h1>
+                            <h5 style={{ 'color': '#40E0D0 ' }}>Exclusive holidays for the single traveler.</h5>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>

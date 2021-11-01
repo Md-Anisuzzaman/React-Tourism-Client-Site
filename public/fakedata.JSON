@@ -3,6 +3,7 @@
         "id": 1,
         "name": "Ahsan Manzil",
         "tour":"2days/3days",
+        "email":"alom@gmail.com",
         "price": 350,
         "description": "Ahsan Manzil or the Pink Palace, the most meaningful architectural heritage, was built by Nawab Abdul Gani in 1872. This two-story building is now a museum displaying all kinds of objects of the owner of that time. So you can feel the lifestyle of the Nawabs of Bengal. It has 23 galleries displaying historical things.",
         "img": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image015-1024x687.jpg"
@@ -11,6 +12,7 @@
         "id": 2,
         "name": "Inani Beach",
         "tour":"2days/3days",
+        "email":"honey@gmail.com",
         "price": 450,
         "description": "Inani beach is known as a wonderful beach for its corals which become green in summer and rainy season. The blue water, sunrise, and sunset will help you to make you a memorable trip. You can bath here without any fear of a shark. You can see here crab, snail, sea fish, and many more creatures. The view of hills here will also touch your mind",
         "img": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image028.jpg"
@@ -19,6 +21,7 @@
         "id": 3,
         "name": "Cox’s Bazar",
         "tour":"2days/3days",
+        "email":"riya@gmail.com",
         "price": 500,
         "description": "Cox’s Bazar is one of the most popular tourist spot in Bangladesh which is situated in the most southern part and the largest  (112 km) sea beach in the world. It is the best place to enjoy the scene of sunrise and sunset.  The cool fresh air and peaceful weather on the shore will surely make you relaxed. So for a serene and relaxing vacation, this place is mostly recommended to the visitors.",
         "img": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image056-1024x573.jpg"
@@ -27,6 +30,7 @@
         "id": 4,
         "name": "Ratatgul Swamp Forest",
         "tour":"2days/3days",
+        "email":"nadim@gmail.com",
         "price": 400,
         "description": "Ratargul Swamp Forest is the only swamp forest in Bangladesh where you can enjoy different kinds of creatures here like monkey, eagle, insects, fish, birds, etc and this evergreen forest is located beside a river named Goain. You have to request and take permission from the forest office to arrange a boat to explore the forest. Monsoon is the best time to explore the forest.",
         "img": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image021-1024x683.jpg"
@@ -35,6 +39,7 @@
         "id": 5,
         "name": "Sundarbans",
         "tour":"2days/3days",
+        "email":"royal@gmail.com",
         "price": 550,
         "description": "Sundarbans has declared World Heritage Site by UNESCO which is the largest Mangrove Forest situated between two countries. It is the kingdom of Royal Bengal tiger and you will find various kinds of species of birds, animals & plants and I think you should visit the tranquilizing beauty of Sundarbans once in your life.",
         "img": "https://www.mappr.co/wp-content/uploads/2021/02/image-39.jpeg"
@@ -44,6 +49,7 @@
         "name": "Mohasthan Garh",
         "tour":"2days/3days",
         "price": 300,
+        "email":"suny@gmail.com",
         "description": "Mohasthan Garh is the oldest city in Bengal. This place presents the glorious past of Pundranagar. The significant places of Mahasthangarh that you can visit our -Gobinda Vita, Gokul Medh, Bairagir Vita, Parasuramer Prasad, Mankalir Dhap, Bangla-French Exploration, Khulnar Dhap.  ",
         "img": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image038.jpg"
     },
@@ -51,6 +57,7 @@
         "id": 7,
         "name": "Saat Gambuj Mosque",
         "tour":"2days/3days",
+        "email":"milon@gmail.com",
         "price": 320,
         "description": "Saat Gambuj Mosque is one of the most dignified of the ancient Bengal and during the 15th century, it was known as the greatest congregational mosques of Khan Jahan Ali. The mosque contains a total of 81 domes including 70 domes on the prayer hall, 7 domes on the central corridor & 4 domes on the corner tower which are the best tourist attraction of Bagerhat.",
         "img": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image040-1024x576.jpg"
@@ -59,6 +66,7 @@
         "id": 8,
         "name": "Srimangal",
         "tour":"2days/3days",
+        "email":"kuddus@gmail.com",
         "price": 380,
         "description": "After graduating from West Virginia University Medical School, Dr. Jonathon Alex completed a two-year fellowship in sports medicine at Akron Children’s Hospital. During his training at Akron, Dr. Jonathon Alex was team physician for the University of Akron and Walsh University.",
         "img": "https://blog.flyticket.com.bd/wp-content/uploads/2020/05/image005-1024x684.jpg"
