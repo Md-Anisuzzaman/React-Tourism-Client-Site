@@ -30,10 +30,11 @@ const BookingDetails = () => {
     }
 
     useEffect(() => {
-        fetch(`https://morning-brushlands-58353.herokuapp.com/${bookingdetailsid}`)
+        fetch(`https://morning-brushlands-58353.herokuapp.com/services/${bookingdetailsid}`)
             .then(res => res.json())
             .then(data => setBookingDetails(data))
         console.log(bookingdetailsid);
+
     }, [bookingdetailsid])
 
     // useEffect(() => {
