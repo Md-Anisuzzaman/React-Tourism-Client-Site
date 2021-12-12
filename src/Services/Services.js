@@ -5,7 +5,7 @@ import './Services.css'
 const Services = () => {
 
     //Declaration of state
-    
+
     const [services, setServices] = useState([]);
 
     useEffect(() => {
@@ -26,14 +26,14 @@ const Services = () => {
                         <div className="col-md-3" key={service.id}>
                             <div className="cart mt-3 mb-5">
                                 <div>
-                                    <img className="img-wrap" src={service.img} alt="" />
+                                    <img className="img-wrap" src={service.simg} alt="" />
                                 </div>
                                 <div className="mt-2">
-                                    <h4 className="text-style">{service.name}</h4>
+                                    <h4 className="text-style">{service.PlaceName}</h4>
                                     <p className="text-style">Package: {service.tour}</p>
-                                    <p className="text-style">Price: {service.price}$</p>
+                                    <p className="text-style">Price: ${service.price}</p>
 
-                                    <Link to={`/bookingdetails/${service._id}`}><button className="btn btn-primary w-50">Book Now</button></Link>
+                                    <Link to={`/bookingdetails/${service._id}`}><button className="btn btn-primary w-50">Details</button></Link>
 
                                     {/* <Link to={`/details/${service.id}`}> <button className="btn btn-warning">Details</button></Link> */}
                                     {/* <p className="p-4 text-justify"><span className="fw-bold">Details:</span> {service.details}</p> */}

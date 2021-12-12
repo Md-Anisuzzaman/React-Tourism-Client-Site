@@ -1,0 +1,16 @@
+.booking-confirmation form{
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center; 
+    align-items: center; 
+     
+  }
+  
+  .booking-confirmation form input, textarea{
+      width: 50%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      
+  }
+  

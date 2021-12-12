@@ -1,12 +1,15 @@
 .header-body{
-    margin: 5px;
-    margin-left: 7px;
+    /* margin: 5px;
+    margin-left: 7px; */
 }
+
+/* .nav-body{
+    margin-top: 6px;
+} */
 
 .font-style{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     line-height: 37px;
-    margin-top: 7px;
     
 }

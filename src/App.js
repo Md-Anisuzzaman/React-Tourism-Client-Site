@@ -21,6 +21,7 @@ import Services from './Services/Services';
 import PrivateRoute from './Private/PrivateRoute';
 import AuthProvider from './Context-Api/AuthProvider';
 import ManageBooking from './ManageBooking/ManageBooking';
+import AddService from './AddService/AddService';
 
 
 function App() {
@@ -40,6 +41,9 @@ function App() {
             </Route>
             <Route exact path="/services">
               <Services></Services>
+            </Route>
+            <Route exact path="/addservice">
+            <AddService></AddService>
             </Route>
             <Route exact path="/managebooking">
               <ManageBooking></ManageBooking>
