@@ -33,7 +33,10 @@ function App() {
         <Router>
           <Header></Header>
           <Switch>
-            <Route path="/home">
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route exact path="/home">
               <Home></Home>
             </Route>
             <Route exact path="/header">
