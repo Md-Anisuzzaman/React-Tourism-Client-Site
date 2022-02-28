@@ -1,8 +1,78 @@
-.contact-body{
-    height: 80vh;
-    border: 2px solid gray;
+ .contact-body{
+    /* height: 90vh; */
+    /* border: 2px solid gray; */
+    background: url('https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    /* background: url('https://images.pexels.com/photos/6654861/pexels-photo-6654861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
+    background-size: cover;
 }
 
-.text-stye{
+/* .text-stye{
     margin-top: 200px;
+}  */
+
+.contact-body{
+    
 }
+
+.contact-body .contact-address{
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(236,240,241,.35);
+    margin: 0 8px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 20px;
+}
+
+.contact-body .contact-address h4{
+    background: #121FCF;
+    background: -webkit-linear-gradient(to right, #121FCF 0%, #CF1512 88%);
+    background: -moz-linear-gradient(to right, #121FCF 0%, #CF1512 88%);
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 88%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+.contact-body .contact-address p{
+    font-size: 20px;
+}
+
+.contact-form{
+    text-align: center; 
+}
+
+.form-login{
+    background-color: rgba(236,240,241,.35);
+    /* background-color: rgb(47, 93, 102, .30); */
+    border-radius: 10px;
+    /* margin: auto; */
+    padding: 20px;
+    max-width: 450px;
+    width: 100%;
+    text-align: center; 
+}
+
+.text-style{
+color: rgb(21, 42, 226);
+}
+
+@media only screen and (max-width: 600px) {
+
+    .contact-body .contact-address{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgba(236,240,241,.35);
+        margin: 20px 8px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 20px;
+    }
+    
+    
+  }
+
+
+
+

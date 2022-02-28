@@ -43,15 +43,15 @@ const Banner = () => {
 
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 third-img"
                         src="https://whc.unesco.org/uploads/thumbs/news_2177-1200-630-20201005205405.jpg"
                         alt="Third slide"
                     />
 
                     <Carousel.Caption>
-                        <div className="text-container">
-                            <h1 className="text-light"><span style={{ 'color': '#FFC300' }}>Welcome</span> to TourismBD <br /> Awaken To A Different World</h1>
-                            <h5 style={{ 'color': '#40E0D0 ' }}>Exclusive holidays for the single traveler.</h5>
+                        <div className="text-container text-3rd">
+                            <h1 className="text-light "><span style={{ 'color': '#FFC300' }}>Welcome</span> to TourismBD <br /> Awaken To A Different World</h1>
+                            <h5  className='text-dark third'  style={{ 'color': '#40E0D0 ' }}>Exclusive holidays for the single traveler.</h5>
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item>
