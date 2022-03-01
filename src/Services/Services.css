@@ -7,8 +7,10 @@
     height: 90%;
     margin: 5px;
     margin-left: 7px;
-    border: 1px solid cornflowerblue;
+    border: 1px solid gray;
     color: dark;
+    border-radius: 10px;
+    box-shadow: 50px;
 }
 
 .img-wrap{
@@ -21,4 +23,5 @@
 
 .text-style{
     font-family: 'Poppins', sans-serif;
+    color: rgb(42, 37, 37);
 }

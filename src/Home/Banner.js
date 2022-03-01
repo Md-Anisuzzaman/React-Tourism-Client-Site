@@ -44,7 +44,7 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100 third-img"
-                        src="https://whc.unesco.org/uploads/thumbs/news_2177-1200-630-20201005205405.jpg"
+                        src="https://cdn.theculturetrip.com/wp-content/uploads/2017/03/shutterstock_385388497.jpg"
                         alt="Third slide"
                     />
 

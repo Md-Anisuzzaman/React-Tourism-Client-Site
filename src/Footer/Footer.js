@@ -69,7 +69,7 @@ const Footer = () => {
                         </ul>
                     </li>
                 </ul>
-                <h1><i className="fab fa-facebook-square"></i> <i className="fab fa-instagram"></i> <i className="fab fa-linkedin"></i> <i className="fab fa-twitter-square"></i></h1>
+                {/* <h1><i className="fab fa-facebook-square"></i> <i className="fab fa-instagram"></i> <i className="fab fa-linkedin"></i> <i className="fab fa-twitter-square"></i></h1> */}
                 <div className="b-footer">
                     <p>
                         All rights reserved by ©TourismBD 2022 </p>

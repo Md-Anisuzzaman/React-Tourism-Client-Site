@@ -1,7 +1,7 @@
 .about-body{
     border: 2px solid gray;
-    margin: 5px;
-    margin-left: 7px;
+    /* margin: 5px;
+    margin-left: 7px; */
     color: aliceblue;
     background: url('https://images.pexels.com/photos/4245826/pexels-photo-4245826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
