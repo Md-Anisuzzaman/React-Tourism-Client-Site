@@ -1,16 +1,67 @@
 .about-body{
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     /* margin: 5px;
     margin-left: 7px; */
-    color: aliceblue;
-    background: url('https://images.pexels.com/photos/4245826/pexels-photo-4245826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    /* color: aliceblue; */
+    /* background: url('https://images.pexels.com/photos/4245826/pexels-photo-4245826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
     background-size: cover;
 }
-
-.about-body h2{
-    font-size: 40px;
-}
 .about-body p{
-    font-size: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
     color: black;
+    text-align: justify;
+    padding-bottom: 25px;
 }
+
+.image-box{
+   width: 100%; 
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   /* grid-template-rows: repeat(8, 5vw); */
+   grid-gap: 15px;
+}
+.image-box img{
+    width: 100%;
+    height: 90%;
+    /* padding: 10px; */
+    text-align: center;
+}
+
+.progress-box{
+    background-color:rgb(245 178 12);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); ;
+}
+
+.progress-box .progress-container{
+    background-color:#fff;
+    margin: 20px 8px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 20px;
+    width: 250px;
+    height: 220px;
+    text-align: justify;
+    
+
+}
+
+
+@media only screen and (max-width: 600px) {
+     .image-box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); ;
+    }
+
+    .progress-box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); ;
+    }
+
+    .progress-box .progress-container{
+        padding-bottom:40px;
+    }
+  
+   }
+ 

@@ -8,7 +8,8 @@
     margin: 5px;
     margin-left: 7px;
     border: 1px solid gray;
-    color: dark;
+    /* color: dark; */
+    background-color:rgb(66 193 187 / 15%);
     border-radius: 10px;
     box-shadow: 50px;
 }
@@ -23,5 +24,11 @@
 
 .text-style{
     font-family: 'Poppins', sans-serif;
-    color: rgb(42, 37, 37);
+    color: black;
 }
+
+@media only screen and (max-width: 600px) {
+   .cart .img-wrap{
+       margin-top: 20px;
+   }
+  }

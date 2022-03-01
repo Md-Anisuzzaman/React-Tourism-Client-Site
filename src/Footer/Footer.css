@@ -86,11 +86,11 @@
     .b-footer {
     text-align: center;
     color: #999;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     }
     
     .l-footer p {
-    padding-right: 20%;
+    /* padding-right: 20%; */
     color: #999;
     }   
     

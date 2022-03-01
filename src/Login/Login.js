@@ -23,7 +23,7 @@ const Login = () => {
 
 
     return (
-        <div className="body-container bg-warning shadow-lg rounded bg-primary mt-5 mb-5">
+        <div className="login-container bg-warning shadow-lg rounded bg-primary mt-5 mb-5">
 
             <h2 className=" text-dark mt-5">Google Sign In</h2>
 
