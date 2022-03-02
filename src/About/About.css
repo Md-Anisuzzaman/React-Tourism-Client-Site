@@ -5,6 +5,7 @@
     /* color: aliceblue; */
     /* background: url('https://images.pexels.com/photos/4245826/pexels-photo-4245826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
     background-size: cover;
+    padding: 0 30px;
 }
 .about-body p{
     font-family: sans-serif;
@@ -17,9 +18,10 @@
 .image-box{
    width: 100%; 
    display: grid;
-   grid-template-columns: repeat(4, 1fr);
+   grid-template-columns: repeat(2, 1fr);
    /* grid-template-rows: repeat(8, 5vw); */
    grid-gap: 15px;
+   padding-bottom:15px;
 }
 .image-box img{
     width: 100%;
@@ -29,9 +31,10 @@
 }
 
 .progress-box{
-    background-color:rgb(245 178 12);
+    background-color:var(--bs-info);
     display: grid;
-    grid-template-columns: repeat(4, 1fr); ;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 15px;
 }
 
 .progress-box .progress-container{
@@ -41,10 +44,7 @@
     border-radius: 10px;
     box-shadow: 20px;
     width: 250px;
-    height: 220px;
-    text-align: justify;
-    
-
+    height: 220px;   
 }
 
 
@@ -61,6 +61,9 @@
 
     .progress-box .progress-container{
         padding-bottom:40px;
+    }
+    .video-div iframe {
+        width: 100%;
     }
   
    }

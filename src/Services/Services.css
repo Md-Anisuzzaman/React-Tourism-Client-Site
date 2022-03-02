@@ -1,15 +1,16 @@
-.services-border{
-    border: 2px solid cyan;  
+
+.col-md-3{
+padding: 0 30px;
 }
 
 .cart{
     /* background-color: #34495E  ;  */
     height: 90%;
-    margin: 5px;
+    margin: 10px;
     margin-left: 7px;
     border: 1px solid gray;
-    /* color: dark; */
-    background-color:rgb(66 193 187 / 15%);
+    /* background-color:rgb(66 193 187 / 15%); */
+    /* background-color:rgba(66, 143, 193, 0.44); */
     border-radius: 10px;
     box-shadow: 50px;
 }

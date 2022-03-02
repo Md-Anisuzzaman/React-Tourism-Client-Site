@@ -21,7 +21,7 @@ const BookingDetails = () => {
 
     const onSubmit = (data, e) => {
         data.email = user?.email;
-        const allData={...data,price:bookingDetails.price}
+        const allData = { ...data, price: bookingDetails.price }
         console.log(data);
 
         fetch("https://morning-brushlands-58353.herokuapp.com/addorder", {
@@ -64,56 +64,57 @@ const BookingDetails = () => {
             <h1 className="mt-5 mb-5 text-success">Interested to booking, fill the form click on book now button <span><i className="far fa-thumbs-up text-dark"></i></span></h1>
             <div className="container">
 
-                <div className="form-body">
-                    <form onSubmit={handleSubmit(onSubmit)}>
-                        <input {...register("name")}
-                            placeholder="Traveler Name"
-                        />
-                        {/* 
-                        <input {...register("number")}
-                            placeholder="Tour place Name"
-                            defaultValue={bookingDetails.tour}
-                        /> */}
-                        <select {...register("tour")}>
-                            <option value="2days">2days</option>
-                            <option value="2days">3days</option>
-                            <option value="other">other</option>
-                        </select>
-
-                        <input {...register("email")}
-                            placeholder="Email"
-                            defaultValue={user.email} />
-
-                        <input {...register("address")}
-                            placeholder="address"
-                        />
-
-                        <input {...register("price")}
-                            placeholder="price"
-                            defaultValue={bookingDetails.price} />
-
-                        {/* <textarea {...register("description")} placeholder="Description" /> */}
-
-                        <input className="btn btn-warning fs-3"
-                            value="Book Now"
-                            type="Submit" />
-                    </form>
-                </div>
-
                 <div className="row">
-                    <div className="col-md-5 mt-5 mb-5">
-                        <img className="w-100" src={bookingDetails.simg} alt="" />
-                    </div>
 
                     <div className="col-md-7 mt-5 mb-3">
-
                         <h2 className="">{bookingDetails.PlaceName}</h2>
                         <p>Tour: {bookingDetails.tour} </p>
                         <p>Tour Expense: ${bookingDetails.price}</p>
                         <p>{bookingDetails.sdescription}</p>
                         {/* <button className="btn btn-warning rounded fs-4 mt-3 mb-3">Confirm Booking</button> */}
                     </div>
+
+                    <div className="col-md-5 mt-5 mb-5">
+                        <img className="w-100" src={bookingDetails.simg} alt="" />
+                    </div>
                 </div>
+
+            </div>
+
+            <div className="form-body mb-5 w-50">
+                <form className='form-login bg-secondary' onSubmit={handleSubmit(onSubmit)}>
+                    <input className=' form-control mt-3 mb-3' {...register("name")}
+                        placeholder="Traveler Name"
+                    />
+                    {/* 
+                        <input {...register("number")}
+                            placeholder="Tour place Name"
+                            defaultValue={bookingDetails.tour}
+                        /> */}
+                    <select className=' form-control mb-3' {...register("tour")}>
+                        <option value="2days">2days</option>
+                        <option value="2days">3days</option>
+                        <option value="other">other</option>
+                    </select>
+
+                    <input className=' form-control mb-3' {...register("email")}
+                        placeholder="Email"
+                        defaultValue={user.email} />
+
+                    <input className=' form-control mb-3' {...register("address")}
+                        placeholder="address"
+                    />
+
+                    <input className=' form-control mb-3' {...register("price")}
+                        placeholder="price"
+                        defaultValue={bookingDetails.price} />
+
+                    {/* <textarea {...register("description")} placeholder="Description" /> */}
+
+                    <input className="btn btn-primary fs-5"
+                        value="Book Now"
+                        type="Submit" />
+                </form>
             </div>
 
         </div>

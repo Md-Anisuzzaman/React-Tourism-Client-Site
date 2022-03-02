@@ -28,7 +28,7 @@ const AddService = () => {
                         <input {...register("tour")} placeholder="Packages" />
                         <input {...register("img")} placeholder="Image Url" />
                         <input {...register("price")} placeholder="price" />
-                        <input className=" btn btn-info fs-3" value="Add Service" type="Submit" />
+                        <input className=" btn btn-info fs-5" value="Add Service" type="Submit" />
                     </form>
                 </div>
                 </div>

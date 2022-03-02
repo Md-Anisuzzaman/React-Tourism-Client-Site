@@ -10,6 +10,28 @@
 .font-style{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    line-height: 37px;
-    
+    /* line-height: 37px; */  
 }
+
+.btn-style{
+    border-radius: 15px;
+    border: 1px solid #ffff;
+    color: #fff;
+    background-color: #0d88fd;
+    width: 100px;
+    height: 50px;
+
+}
+
+
+@media only screen and (max-width: 600px){
+    .btn-style{
+    width: 100%;
+    }
+       
+  }
+  
+  
+  
+
+

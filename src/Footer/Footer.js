@@ -1,83 +1,57 @@
 import React from 'react';
-import './Footer.css';
-import footerLogo from './../images/travel-logo.png'
+import './Footer.css'
 
 const Footer = () => {
     return (
-        <div>
-            {/* <footer className="text-white bg-dark position-footer">
-                <div className='d-flex row'>
-                    <div className="m-auto col-md-4">
-                        <h6 className="mt-2">Contact Us</h6>
-                        <p className="mt-3">
-                            Dhaka,Banani <br />
-                            Email: HelloDoctor@gmail.com <br />
-                            mobile: 00548925 , 006579211
-                        </p>
-                    </div>
-                    <div className='col-md-4'>
-                        <p className="mt-5">No matter where in Bangladesh you want to go,
-                            <br /> we can help get you there,
-                            <br />Book A Ticket And Just Leave,
-                            <br />Happiness Is Travelling. </p>
-                    </div>
-                    <div className="m-auto mt-3 col-md-4">
-                        <h5 className="mt-2">Find us at..</h5>
-                        <br />
-                        <h1><i className="fab fa-facebook-square"></i> <i className="fab fa-instagram"></i> <i className="fab fa-linkedin"></i> <i className="fab fa-twitter-square"></i></h1>
-                        <p className="mb-5">Copyright 2021</p>
-                    </div>
-
+        <div className="test-body">
+            <div className='row'>
+                <div className='container-1 col-lg-3'>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        dignissimos veniam eius qui? Ipsa!</p>
+                    <h6>Follow Us On</h6>
+                    <h3><i className="fab fa-facebook-square"></i> <i className="fab fa-instagram"></i> <i className="fab fa-linkedin"></i> <i className="fab fa-twitter-square"></i></h3>
                 </div>
-            </footer> */}
 
-            <footer className="footer">
-                <div className="l-footer">
-                    <h1>
-                        <img className='footer-logo' src={footerLogo} alt="" />
-                    </h1>
-                    <p>
-                        Discover funny anecdotes that will make you laugh, inspiring love stories from the road that will warm your heart, wild travel tales that will have you glued to your screen, travel horror stories that will take you out of your comfort zone, scary travel stories that will creep you out, and more.</p>
+                <div className="container-2 col-lg-3">
+                    <h5>Quick Link</h5>
+                    <li>About Us</li>
+                    <li> Tour Package</li>
+                    <li>Destination</li>
+                    <li>Tour Guide</li>
+                    <li>Information</li>
+                    <li>Booking Process</li>
+                    <li>Blog</li>
                 </div>
-                <ul className="r-footer">
-                    <li>
-                        <h2>Social</h2>
-                        <ul className="box">
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Pinterest</a></li>
-                            <li><a href="#">Dribbble</a></li>
-                        </ul>
-                    </li>
-                    <li className="features">
-                        <h2>Information</h2>
-                        <ul className="box h-box">
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Sales</a></li>
-                            <li><a href="#">Tickets</a></li>
-                            <li><a href="#">Certifications</a></li>
-                            <li><a href="#">Customer Service</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h2>Legal</h2>
-                        <ul className="box">
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Contract</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                {/* <h1><i className="fab fa-facebook-square"></i> <i className="fab fa-instagram"></i> <i className="fab fa-linkedin"></i> <i className="fab fa-twitter-square"></i></h1> */}
-                <div className="b-footer">
-                    <p>
-                        All rights reserved by ©TourismBD 2022 </p>
-                </div>
-            </footer>
 
+                <div className="container-3 col-lg-3">
+                    <h5>Tour Type</h5>
+                    <li>Wild & Adventure Tours</li>
+                    <li>Group Tour</li>
+                    <li>Camping</li>
+                    <li>Seassonal Tour</li>
+                    <li>Relaxing Tour</li>
+                    <li>Monthly Tour</li>
+                    <li>Family Friend Tour</li>
+                </div>
+
+                <div className="container-4 col-lg-3">
+                    <h5>Gallery</h5>
+                    <img src="https://images.indianexpress.com/2018/04/adventure_sport_759x422.jpg" alt="" />
+                    <img src="https://porzoton.com/wp-content/uploads/2020/07/Panthumai-Waterfall-Sylhet.jpg" alt="" />
+                    <img src="https://kundutirthoovraman.com/wp-content/uploads/2018/11/bangladesh-tourist-banner.jpg" alt="" />
+                    <img src="https://kundutirthoovraman.com/wp-content/uploads/2018/11/bangladesh-tourist-banner.jpg" alt="" />
+                </div>
+                <hr/>
+                <div className='foo-style'>
+                    <h5>Contact Us</h5>
+                    <p>+88015485487</p>
+                    <p>tourismBD@hotmail.com</p>
+                    <p>32,Dhanmondi,Dhaka,Bangladesh.</p>
+                </div>
+            </div>
         </div>
     );
+
 };
 
 export default Footer;

@@ -23,11 +23,11 @@ const Login = () => {
 
 
     return (
-        <div className="login-container bg-warning shadow-lg rounded bg-primary mt-5 mb-5">
+        <div className="login-container shadow-lg rounded mt-5 mb-5">
 
             <h2 className=" text-dark mt-5">Google Sign In</h2>
 
-            <button onClick={googleLogin} className=" btn btn-danger mt-3 mb-5">Sign in</button>
+            <button onClick={googleLogin} className=" btn btn-primary mt-3 mb-5">Sign In</button>
 
         </div>
     );

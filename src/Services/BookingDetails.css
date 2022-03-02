@@ -1,17 +1,29 @@
-.booking-confirmation form{
+ /* .booking-confirmation form{
   margin-bottom: 20px;
   display:flex;
   flex-direction:column;
   justify-content: center; 
   align-items: center; 
-   
-}
+ } */
 
-.booking-confirmation form input,select, textarea{
+
+/* .booking-confirmation form input,select, textarea{
     width: 50%;
     margin-top: 10px;
     margin-bottom: 10px;
     
+} */
+
+.form-body{
+display: inline-block;
+}
+
+
+@media only screen and (max-width: 600px){
+
+   
+  
+     
 }
 
 
