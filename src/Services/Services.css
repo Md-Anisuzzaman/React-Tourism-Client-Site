@@ -1,26 +1,33 @@
-
 .col-md-3{
-padding: 0 30px;
+/* padding: 0 30px; */
 }
 
-.cart{
+.col-md-4 .cart-border{
     /* background-color: #34495E  ;  */
-    height: 90%;
-    margin: 10px;
-    margin-left: 7px;
+    background-color: #ffff;
     border: 1px solid gray;
+    width: 70%;
+    height: 85%;
+    margin-left: 70px;
     /* background-color:rgb(66 193 187 / 15%); */
     /* background-color:rgba(66, 143, 193, 0.44); */
     border-radius: 10px;
-    box-shadow: 50px;
+    box-shadow: 100px;
+}
+.div-image{
+transition: 1s;
+}
+
+.div-image:hover{
+    transform: scale(1.2);
 }
 
 .img-wrap{
-     height: 200px;
-     width: 90%;
+    margin-top: 10px;
+    height: 200px;
+    width: 90%;
      /* overflow-y: hidden; */
-     object-fit: contain;
-
+     /* object-fit: contain; */
 }
 
 .text-style{

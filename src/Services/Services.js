@@ -16,23 +16,21 @@ const Services = () => {
     }, [])
 
     return (
-        <div className="sevices-border">
+        <div className="sevices-border mb-5">
             <div className="row">
                 {
                     // Using-map-function-to-show-data-in-cart
                     services.map(service =>
-                        <div className="col-md-3" key={service.id}>
-                            <div className=" cart mt-5 mb-5">
-                                <div>
+                        <div className="col-md-4" key={service.id}>
+                            <div className="cart cart-border mt-5 mb-5">
+                                <div className='div-image'>
                                     <img className="img-wrap" src={service.simg} alt="" />
                                 </div>
                                 <div className="mt-2">
                                     <h4 className="text-style">{service.PlaceName}</h4>
                                     <p className="text-style">Package: {service.tour}</p>
                                     <p className="text-style">Price: ${service.price}</p>
-
                                     <Link to={`/bookingdetails/${service._id}`}><button className="btn btn-primary w-50">Details</button></Link>
-
                                     {/* <Link to={`/details/${service.id}`}> <button className="btn btn-warning">Details</button></Link> */}
                                     {/* <p className="p-4 text-justify"><span className="fw-bold">Details:</span> {service.details}</p> */}
                                 </div>

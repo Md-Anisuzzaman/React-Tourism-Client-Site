@@ -16,12 +16,12 @@ const Reviews = () => {
                 {
                     // Using-map-function-to-show-data-in-cart
                     reviews.map(review =>
-                        <div className="col-md-3" key={review.id}>
+                        <div className="col-md-4 mb-5" key={review.id}>
                             <div className="cart review-cart m-3 mt-5">
                                 <div>
-                                    <img className="img-fluid  w-100 p-2" src={review.img} alt="" />
+                                    <img className="img-fluid w-50 p-2" src={review.img} alt="" />
                                 </div>
-                                <div className="mt-2">
+                                <div className=" para-body mt-2">
                                     <p>{review.review.slice(0, 100)}</p>
                                     <Rating className="mb-3"
                                         readonly

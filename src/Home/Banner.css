@@ -2,12 +2,19 @@
     /* margin: 5px; */
     /* margin-left: 7px; */
 }
+.slider-height{
+height: calc(100vh - 68px);
+}
 .car-img{
-    height: 550px;
+    /* height: 550px; */
 }
 .text-container{
-     padding-bottom: 18rem; 
+     padding-bottom: 12rem;
      font-family: 'Poppins', sans-serif;
+     display: flex;
+     flex-direction:column;
+     justify-content: center;
+     align-items: center;
 }
 
 .text-container h1{
