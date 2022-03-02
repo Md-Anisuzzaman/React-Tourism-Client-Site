@@ -22,8 +22,8 @@ import PrivateRoute from './Private/PrivateRoute';
 import AuthProvider from './Context-Api/AuthProvider';
 import ManageBooking from './ManageBooking/ManageBooking';
 import AddService from './AddService/AddService';
-
-
+import AddReview from './AddReview/AddReview';
+import Review from './Review/Review';
 
 function App() {
 
@@ -47,7 +47,10 @@ function App() {
               <Services></Services>
             </Route>
             <Route exact path="/addservice">
-            <AddService></AddService>
+              <AddService></AddService>
+            </Route>
+            <Route exact path="/addreview">
+              <AddReview></AddReview>
             </Route>
             <Route exact path="/managebooking">
               <ManageBooking></ManageBooking>
@@ -60,6 +63,9 @@ function App() {
             </Route>
             <Route exact path="/contact" >
               <Contact></Contact>
+            </Route>
+            <Route exact path="/review" >
+             <Review></Review>
             </Route>
             <Route exact path="/login" >
               <Login></Login>

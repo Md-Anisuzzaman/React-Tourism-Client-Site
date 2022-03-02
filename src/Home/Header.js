@@ -33,6 +33,7 @@ const Header = () => {
                         <Link style={{ color: '#fff' }} className="font-style" to="/managebooking">Manage-Booking</Link>
                         <Link style={{ color: '#fff' }} className="font-style" to="/about">About</Link>
                         <Link style={{ color: '#fff' }} className="font-style" to="/contact">Contact</Link>
+                        <Link style={{ color: '#fff' }} className="font-style" to="/addreview">AddReview</Link>
                         {/* <Nav.Link style={{ color: 'white' }} to="/login"><Button style={{'fontSize':'22px'}} className="btn btn-dark">Login</Button> </Nav.Link>
                     <Nav.Link style={{ color: 'white' }} to="/login"><Button style={{'fontSize':'22px'}} className="btn btn-dark">Login</Button> </Nav.Link> */}
 

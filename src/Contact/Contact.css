@@ -1,11 +1,10 @@
 .contact-body{
     /* height: 90vh; */
     /* border: 2px solid rgb(216, 34, 34); */
-    background: url('https://images.pexels.com/photos/2250731/pexels-photo-2250731.jpeg');
-    /* background: url('https://images.pexels.com/photos/6654861/pexels-photo-6654861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
+    /* background: url('https://images.pexels.com/photos/2250731/pexels-photo-2250731.jpeg'); */
+    background: url('https://images.pexels.com/photos/6654861/pexels-photo-6654861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     margin-bottom: 5px;
-
     display: flex;
     align-items: center;
     justify-content:space-around;  
@@ -15,7 +14,7 @@
     text-align: center;
     background-color: rgba(236,240,241,.80);
     margin: 8px 8px;
-    padding: 20px;
+    padding: 12px;
     border-radius: 10px;
     box-shadow: 20px;
 }

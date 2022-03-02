@@ -60,7 +60,6 @@ const Banner = () => {
                         </div>
                     </Carousel.Caption>
                 </Carousel.Item> */}
-
             </Carousel>
 
             {/* <div className='ghartera-image-box'>

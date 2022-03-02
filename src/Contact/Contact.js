@@ -20,8 +20,8 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div className="contact-form mt-3 p-5 d-flex justify-content-center">
-                <form className=' form-login w-50' action="">
+            <div className="contact-form mt-3 w-75 p-5 d-flex justify-content-center">
+                <form className=' form-login w-100' action="">
                     <h3 className='text-style'>Send Your Message</h3>
                     <input className=' form-control mb-3' type="text" placeholder='Enter your name' />
                     <input className=' form-control mb-3' type="email" name="" id="" placeholder='Enter your email' />

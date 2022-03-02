@@ -6,6 +6,7 @@
   background-color: #30475E;
   /* background: url('');
   background-size: cover; */
+  position: absolute;
   }
   
   .test-body h3{
