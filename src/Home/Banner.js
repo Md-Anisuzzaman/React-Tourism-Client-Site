@@ -7,9 +7,9 @@ const Banner = () => {
     return (
         <div className="banner-body">
 
-            <Carousel className='slider-height'>
+            <Carousel className=''>
 
-                <Carousel.Item className='slider-height'>
+                <Carousel.Item className=''>
                     <div>
                         <img
                             className="d-block w-100 h-50 car-img"

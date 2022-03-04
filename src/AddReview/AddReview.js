@@ -17,11 +17,11 @@ const AddReview = () => {
     };
     return (
         <div>
-            <h2 className="mt-5  text-primary">Add Your Review</h2>
+            <h2 className="mt-5 text-primary">Add Your Review</h2>
             <div className=" w-25 m-auto mt-3">
                 <div className=" ">
-                    <div className="mb-5 mt-3">
-                        <form className=" form-login bg-secondary" onSubmit={handleSubmit(onSubmit)}>
+                    <div className="mb-5 p-4 shadow bg-light mt-3">
+                        <form className="form-login" onSubmit={handleSubmit(onSubmit)}>
                             <input
                                 className="{styles.input-field} form-control mb-3 w-100 "
                                 {...register("review")}
@@ -40,7 +40,6 @@ const AddReview = () => {
 
                             />
                             <br />
-
                             <input
                                 className="btn btn-info w-50"
                                 type="submit"

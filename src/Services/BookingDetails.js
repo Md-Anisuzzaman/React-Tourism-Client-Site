@@ -78,11 +78,10 @@ const BookingDetails = () => {
                         <img className="w-100" src={bookingDetails.simg} alt="" />
                     </div>
                 </div>
-
             </div>
 
-            <div className="form-body mb-5 w-50">
-                <form className='form-login bg-secondary' onSubmit={handleSubmit(onSubmit)}>
+            <div className="form-body shadow bg-light p-4 mb-5 w-50">
+                <form className='form-login' onSubmit={handleSubmit(onSubmit)}>
                     <input className=' form-control mt-3 mb-3' {...register("name")}
                         placeholder="Traveler Name"
                     />

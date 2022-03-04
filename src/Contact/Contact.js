@@ -6,7 +6,7 @@ const Contact = () => {
         <div className='container'>
             <h1>Connect With Us</h1>
             <p className='contact-p'>We would love to your respond to queries and help  <br /> you to succede of your project , feel free to get in touch with us.</p>
-            <div className="contact-box">
+            <div className="contact-box mb-5">
                 <div className="contact-left">
                     <h3>Sent your message</h3>
                     <form>
@@ -60,10 +60,7 @@ const Contact = () => {
 };
 
 export default Contact;
-
-
-
-        
+    
         // <div className='mt-3'>
         //   <div className="contact-body">
         //     <div class="address-body">

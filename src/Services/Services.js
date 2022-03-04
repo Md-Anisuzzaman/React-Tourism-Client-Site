@@ -21,7 +21,7 @@ const Services = () => {
                 {
                     // Using-map-function-to-show-data-in-cart
                     services.map(service =>
-                        <div className="col-md-4" key={service.id}>
+                        <div className="col-md-4" key={service._id}>
                             <div className="cart cart-border mt-5 mb-5">
                                 <div className='div-image'>
                                     <img className="img-wrap" src={service.simg} alt="" />
@@ -38,7 +38,6 @@ const Services = () => {
                         </div>
                     )
                 }
-
             </div>
         </div>
     );

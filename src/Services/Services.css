@@ -1,7 +1,6 @@
 .col-md-3{
 /* padding: 0 30px; */
 }
-
 .col-md-4 .cart-border{
     /* background-color: #34495E  ;  */
     background-color: #ffff;
@@ -14,18 +13,24 @@
     border-radius: 10px;
     box-shadow: 100px;
 }
+
 .div-image{
+   overflow: hidden; 
+   border-radius: 7px;
+}
+.div-image img{
 transition: 1s;
 }
 
-.div-image:hover{
+.div-image img:hover{
     transform: scale(1.2);
 }
 
 .img-wrap{
     margin-top: 10px;
     height: 200px;
-    width: 90%;
+    width: calc(100% - 20px);
+    /* width: 100%; */
      /* overflow-y: hidden; */
      /* object-fit: contain; */
 }

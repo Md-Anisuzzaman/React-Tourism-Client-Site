@@ -29,10 +29,9 @@ function App() {
 
   return (
     <div className="App">
-
       <AuthProvider>
         <Router>
-          <Header></Header>
+          <Header/>
           <Switch>
             <Route exact path="/">
               <Home></Home>

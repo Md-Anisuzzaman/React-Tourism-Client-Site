@@ -71,9 +71,9 @@
 
 body{
     min-height: 100vh;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     background-color: #f1f1f1;
 }
 
@@ -102,7 +102,7 @@ body{
 .text{
     font-size: 13px;
     color: #545454;
-    line-height: 30px;
+    line-height: 23px;
     text-align: justify;
     margin-bottom: 40px;
 }
